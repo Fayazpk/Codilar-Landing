@@ -10,7 +10,7 @@ const Nav = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <div className="flex items-center">
-              <img src="/src/assets/logo.png" alt="Codilar Logo" className="h-8 w-auto" />
+              <img src="./src/assets/logo.png" alt="Codilar Logo" className="h-8 w-auto" />
             </div>
           </div>
 
