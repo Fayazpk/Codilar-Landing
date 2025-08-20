@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import logo from '../assets/logo.png'
 
 const Nav = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -10,7 +11,7 @@ const Nav = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <div className="flex items-center">
-              <img src="./src/assets/logo.png" alt="Codilar Logo" className="h-8 w-auto" />
+              <img src={logo} alt="Codilar Logo" className="h-8 w-auto" />
             </div>
           </div>
 
