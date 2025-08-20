@@ -1,3 +1,5 @@
+import img13 from '../assets/13.png'
+
 const ExpertiseSection = () => {
   const expertiseAreas = [
     {
@@ -102,7 +104,7 @@ const ExpertiseSection = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-xl max-w-md w-full">
               <div className="aspect-square relative">
                 <img 
-                  src="/src/assets/13.png" 
+                  src={img13} 
                   alt="Codilar Expertise"
                   className="w-full h-full object-cover"
                 />

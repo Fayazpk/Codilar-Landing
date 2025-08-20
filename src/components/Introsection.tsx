@@ -1,3 +1,5 @@
+import hero from '../assets/ezgif.com-webp-to-jpg-converter.jpg'
+
 const Introsection = () => {
   return (
     <div className="bg-white">
@@ -32,7 +34,7 @@ const Introsection = () => {
           {/* Right Image */}
           <div className="relative max-w-lg mx-auto lg:mx-0">
             <img 
-              src="/src/assets/ezgif.com-webp-to-jpg-converter.jpg" 
+              src={hero} 
               alt="Reimagine Digital Experience" 
               className="w-full h-auto object-cover rounded-lg shadow-lg max-h-96"
             />

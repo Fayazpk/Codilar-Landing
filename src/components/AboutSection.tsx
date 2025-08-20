@@ -1,32 +1,38 @@
+import img1 from '../assets/1.jpg'
+import img2 from '../assets/2.jpg'
+import img3 from '../assets/3.jpg'
+import img4 from '../assets/4.jpg'
+import img5 from '../assets/5.jpg'
+
 const AboutSection = () => {
   const awards = [
     {
       id: 1,
-      image: "/src/assets/1.jpg",
+      image: img1,
       title: "Codilar Wins Prestigious BIGBOX 2025 Award",
       year: "2025"
     },
     {
       id: 2,
-      image: "/src/assets/2.jpg", 
+      image: img2, 
       title: "Codilar Wins Big at Meet Magento India 2025",
       year: "2025"
     },
     {
       id: 3,
-      image: "/src/assets/3.jpg",
+      image: img3,
       title: "Codilar Wins the World Traveler Award at Meet Magento New York",
       year: "2024"
     },
     {
       id: 4,
-      image: "/src/assets/4.jpg",
+      image: img4,
       title: "B2B Champ Title Winner At Meet Magento India",
       year: "2024"
     },
     {
       id: 5,
-      image: "/src/assets/5.jpg",
+      image: img5,
       title: "Our client Lals Group (Mom Store) makes it to top 3 finalist at Pimcore Awards Data Hero of the Year",
       year: "2022"
     }

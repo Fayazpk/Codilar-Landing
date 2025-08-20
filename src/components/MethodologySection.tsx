@@ -1,22 +1,26 @@
+import img10 from '../assets/10.jpg'
+import img11 from '../assets/11.jpg'
+import img12 from '../assets/12.jpg'
+
 const MethodologySection = () => {
   const approaches = [
     {
       id: 1,
-      image: "/src/assets/10.jpg",
+      image: img10,
       title: "Empathy",
       description: "Getting to know the audience is utmost important as the whole design system, interactions and the usability can be driven based on it.",
       height: "h-64" // Standard height
     },
     {
       id: 2,
-      image: "/src/assets/11.jpg", 
+      image: img11, 
       title: "UX Design",
       description: "Stunning interfaces backed with insights driven UX is our starting step of project",
       height: "h-96" // Taller height
     },
     {
       id: 3,
-      image: "/src/assets/12.jpg",
+      image: img12,
       title: "Pixel, Code and Business",
       description: "Though we advocate users, we also believe in the business decisions and the code implications. We adapt and deliver the best experience",
       height: "h-64" // Standard height

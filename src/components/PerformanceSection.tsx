@@ -1,3 +1,5 @@
+import car from '../assets/car.svg'
+
 const PerformanceSection = () => {
   const performanceAreas = [
     {
@@ -39,7 +41,7 @@ const PerformanceSection = () => {
             {/* Car SVG */}
             <div className="relative z-10 flex items-center justify-center py-12">
               <img 
-                src="/src/assets/car.svg" 
+                src={car} 
                 alt="Performance Commerce Formula 1 Car"
                 className="w-full max-w-md h-auto"
               />

@@ -1,29 +1,34 @@
+import img6 from '../assets/6.jpg'
+import img7 from '../assets/7.jpg'
+import img8 from '../assets/8.jpg'
+import img9 from '../assets/9.jpg'
+
 const ProjectsSection = () => {
   const projects = [
     {
       id: 1,
-      image: "/src/assets/6.jpg",
+      image: img6,
       title: "Aldo",
       description: "Omnichannel ecommerce implementation for world's favourite footwear & accessories brand in 4 countries",
       link: "Explore project →"
     },
     {
       id: 2,
-      image: "/src/assets/7.jpg", 
+      image: img7, 
       title: "Homes r Us",
       description: "Multi-country ecommerce implementation for Middle East's fastest growing home furniture brand on Adobe Commerce and Pimcore",
       link: "Explore project →"
     },
     {
       id: 3,
-      image: "/src/assets/8.jpg",
+      image: img8,
       title: "Candere",
       description: "Enterprise grade ecommerce solution for the largest brand on Adobe Commerce.",
       link: "Explore project →"
     },
     {
       id: 4,
-      image: "/src/assets/9.jpg",
+      image: img9,
       title: "Reebok",
       description: "Reebok, a global athletic footwear and apparel company, wanted to create a new ecommerce website to sell their products online. They approached us to build the website on Magento Cloud and customize it to meet their specific needs.",
       link: "Explore project →"

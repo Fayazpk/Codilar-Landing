@@ -1,26 +1,30 @@
 import { useState, useEffect } from 'react';
 
+import img14 from '../assets/14.jpg'
+import img15 from '../assets/15.jpg'
+import img16 from '../assets/16.jpg'
+
 const TestimonialsSection = () => {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
 
   const testimonials = [
     {
       id: 1,
-      image: "/src/assets/14.jpg",
+      image: img14,
       quote: "What I value most about Codilar is their genuine and sincere approach. They mean what they say, and their actions speak even louder. When you're working with people remotely, that kind of trust is invaluable. Codilar took the time to understand what we needed and delivered on every front. Choosing Magento and working with them has been the best decision for GST.",
       name: "Allan Dresner",
       title: "Proprietor, Global Style Trading (GST)"
     },
     {
       id: 2,
-      image: "/src/assets/15.jpg",
+      image: img15,
       quote: "Being India's top jewellery ecommerce brand, we were struggling in scaling our ecommerce technology stack. With Codilar, we have been able to boost our Magento store performance and add many complex modules in the most optimized way. Codilar's services has been outstanding and I recommend them to all the other players in the market.",
       name: "Rupesh Jain",
       title: "CEO, Candere"
     },
     {
       id: 3,
-      image: "/src/assets/16.jpg",
+      image: img16,
       quote: "We could clearly see Codilar's passion for digital commerce and technology. Our years of frustration seemed very easily solvable after discussions with them. We decided to go ahead and never had to look back since then",
       name: "Vijay Thiruvasagam",
       title: "Head of Technology, ALDO Singapore"

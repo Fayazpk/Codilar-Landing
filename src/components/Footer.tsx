@@ -1,3 +1,5 @@
+import logo from '../assets/logo.png'
+
 const Footer = () => {
   const services = [
     "Adobe Commerce (Magento)",
@@ -37,7 +39,7 @@ const Footer = () => {
           <div className="flex-1 h-px bg-gray-300 max-w-xs"></div>
           <div className="mx-8">
             <img 
-              src="/src/assets/logo.png" 
+              src={logo} 
               alt="Codilar"
               className="h-12"
             />

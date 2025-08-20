@@ -1,3 +1,5 @@
+import img16 from '../assets/16.jpg'
+
 const NexPwaSection = () => {
   const features = [
     {
@@ -38,7 +40,7 @@ const NexPwaSection = () => {
           <div className="relative flex justify-center">
             <div className="relative">
               <img 
-                src="/src/assets/16.jpg" 
+                src={img16} 
                 alt="NexPwa Mobile App Interface"
                 className="w-full max-w-sm h-auto rounded-3xl shadow-2xl"
               />
